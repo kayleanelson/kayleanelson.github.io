@@ -1,0 +1,38 @@
+---
+---
+
+nav, section{
+	width: 100%; margin: 0; float: none;
+}
+
+nav, .noprint{
+	display:none;
+}
+
+#cv{
+	color:black;
+	//font-family:"Times New Roman", Times, serif;
+	font-size: 10pt;
+
+		//h2, h3, h4, a:link, a:visited{
+		a:link, a:visited{
+			color:black;
+		}
+
+}
+
+section{
+    margin-top:-20px;
+}
+
+@page :left{
+margin: 2cm;
+}
+
+@page :right {
+margin: 2cm;
+}
+
+.break{
+    page-break-after: always
+}

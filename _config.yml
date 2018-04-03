@@ -1,0 +1,10 @@
+title: Kaylea Nelson
+email: kaylea.nelson@yale.edu
+description: >-
+    Kaylea Nelson. Developer. Astrophysicist. Person.
+github_username:  kayleanelson
+google_analytics: UA-31290033-1
+
+exclude:
+- Gemfile
+- Gemfile.lock

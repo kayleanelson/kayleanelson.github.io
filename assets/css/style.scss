@@ -1,0 +1,205 @@
+---
+---
+
+$dkgray: #515151;
+$red: #FA2400;
+$gray: #999999;
+
+/* general */
+body{
+	font-family: Georgia, serif;
+
+	font-size: 11pt;
+	color: $dkgray;
+}
+
+a{
+	color: $gray;
+	text-decoration:none;
+	&:hover{
+		color: $dkgray;
+		text-decoration:none;
+	}
+}
+
+h1{
+	font-size:75px;
+	font-weight:normal;
+	color: $red;
+	margin:0px;
+	text-transform:uppercase;
+	letter-spacing:10px;
+	span{
+		font-size:72px;
+		display:block;
+		padding-left:5px;
+	}
+}
+
+section, nav{
+	width:800px;
+	margin:0 auto;
+}
+
+/*navigation*/
+
+nav{
+	margin-top: 20px;
+	text-align:center;
+	height: 60px;
+	ul{
+		padding-left:0px;
+		li{
+			display: inline;
+			list-style-type: none;
+			margin-right: 15px;
+
+			.active{
+				color: $dkgray;
+			}
+		}
+	}
+}
+
+
+nav ul.nav-item{
+    transition: opacity 1s ease-out;
+    opacity: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	height: 0;
+	overflow: hidden;
+}
+
+nav ul.nav-item.show{
+  opacity: 1;
+  height: auto;
+}
+
+
+/*homepage */
+#home, #contact{
+	margin-top:75px;
+	text-align:center;
+}
+
+#home a:hover{
+  	cursor: pointer;
+}
+
+
+/*gadgets*/
+.gadget{
+	float:right;
+	width:330px;
+	margin-left:10px;
+	}
+
+.unit{
+	clear:both;
+	padding-top:20px;
+	}
+
+/* bitbucket */
+
+
+/* github */
+
+/*Astro*/
+
+#cv{
+
+
+	h3{
+	color: 	#FA2400;
+	}
+
+	div.right{
+	float:right;
+	font-weight:bold;
+	text-align: right;
+	}
+
+	ul{
+		padding-left:15px;
+
+
+		li{
+			list-style:none;
+			margin-bottom:5px;
+			line-height:1.4em;
+			}
+	}
+
+	ol{
+		padding-left:35px;
+
+		li{
+			margin-bottom:5px;
+			line-height:1.4em;
+
+		}
+	}
+
+	.unbold{
+		font-weight:normal;
+	}
+
+
+	ul.position, ul.education{
+	padding-left:0px;
+	list-style:none inside;
+		li{
+			margin-bottom:10px;
+			}
+	}
+
+	.address div.right {
+			font-weight:normal;
+	}
+
+
+	ul.experience{
+	padding-left:0px;
+		div.year{
+			float:left
+		}
+
+		li{
+			margin-bottom:20px;
+		}
+
+		h4, p{
+		margin-left:120px;
+		margin-bottom:0px;
+		margin-top:0px;
+		}
+
+	}
+
+
+}
+
+
+/*person*/
+
+#lastfm{
+	p{
+		color: $red;
+	}
+	div{
+		width:350px;
+		padding-left:20px;
+		float:left;
+
+		li{
+			list-style:none;
+			line-height:2em;
+			font-size:14px;
+		}
+	}
+}
+
+

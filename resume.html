@@ -1,0 +1,72 @@
+---
+title: Resume
+layout: default
+---
+
+<section id="cv">
+
+{% include bio.html %}
+
+<h3>Professional Experience</h3>
+
+<ul class="experience">
+<li>
+    <div class="year">2009 - 2015</div>
+    <h4>Astrophysics Ph.D. Candidate, <span class="unbold">Yale University</span></h4>
+    <p>Utilizing cosmological, hydrodynamic simulations to study the effects of dynamical state on galaxy cluster properties and our ability to accurately measure them. Research responsibilities include the design, execution and management of large-scale simulations on high performance computers at Yale (>10 million CPU hours, ~500TB data generated). Development of Python, SQLite and C data analysis pipelines used throughout extended research group. Extensive experience in written and oral communication through research publications, teaching, and conferences. Additional responsibilities include project development/management and mentoring of undergraduate and junior graduate students. </p>
+    <p>Developer for and user of astrophysics software <a href="https://bitbucket.org/cartamr/cart">CART</a> and <a href="http://yt-project.org/">yt</a>.</p>
+</li>
+
+<li>
+    <div class="year">2010 - 2013</div>
+    <h4>Co-Founder &amp; Developer, <span class="unbold">Spruce Interactive (<a href="http://spruce.it">http://spruce.it</a>)</span></h4>
+    <p>Web development in HTML5, CSS3 (+preprocessors), PHP and Wordpress, JavaScript/jQuery. Clients included individuals, small businesses, startups, e-commerce companies, and global corporations.</p>
+</li>
+
+<li>
+    <div class="year">2007 - 2009</div>
+    <h4>Co-Founder &amp; Developer, <span class="unbold">Leakybean Web Design</span></h4>
+    <p>Web development in HTML, CSS, JavaScript, PHP.</p>
+</li>
+</ul>
+
+<h3>Programming Experience</h3>
+<ul>
+    <li><strong>Languages</strong></li>
+    <li>Expert in Python (including pandas, numpy and scipy packages)<li>
+    <li>Expert in C</li>
+    <li>Experienced in SQL/SQLite</li>
+    <li>Familiar with Perl, IDL, R<li>
+    <li>Familiar with Java, Objective-C</li>
+    <li><strong>Skills</strong></li>
+    <li>Expert in high performance computing</li>
+    <li>Expert in Linux command line, bash scripting</li>
+    <li>Experienced in test driven developement (pytest)</li>
+    <li>Familiar with machine learning techniques</li>
+    <li>Familiar with Open MPI</li>
+    <li>Familiar with MacOS development</li>
+    <li><strong>Web Development</strong></li>
+    <li>Experienced in HTML, CSS (+preprocessors), JavaScript, PHP</li>
+    <li>Familiar with AngularJS and node.js</li>
+</ul>
+
+
+<h3>Conferences and Talks</h3>
+
+<ul>
+    {% for presentation in site.data.presentations %}
+      <li>{{ presentation.type }}, <cite>{{ presentation.title }}</cite>, {{ presentation.venue }},
+          {{ presentation.location }}, {{ presentation.date }}</li>
+    {% endfor %}
+</ul>
+
+
+<h3>Workshops & Schools</h3>
+
+<ul>
+    {% for workshop in site.data.workshops %}
+      <li> {{ workshop.title }}, {{ workshop.location }}, {{ workshop.date }}</li>
+    {% endfor %}
+</ul>
+
+</section>

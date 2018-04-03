@@ -1,0 +1,26 @@
+        {% capture url %}
+            {% if include.paper[1].doi %}
+                http://doi.org/{{ include.paper[1].doi }}
+            {% elsif include.paper[1].eprint %}
+                https://arxiv.org/abs/{{ include.paper[1].eprint }}
+            {% endif %}
+        {% endcapture %}
+
+        <li>
+            <cite><a href="{{ url }}">
+            {{ include.paper[1].title }}
+            </a></cite><br />
+            {% for person in include.paper[1].author %}
+                {% if person.first == 'Kaylea' %}
+                    <strong>{{ person.first }} {{ person.middle }} {{ person.last }}</strong>,
+                {% else %}
+                    {{ person.first }} {{ person.middle }} {{ person.last }},
+                {% endif %}
+            {% endfor %}
+            {{ include.paper[1].year }}, {{ include.paper[1].journal }},
+            {% if include.paper[1].journal contains 'ArXiv' %}
+                {{ include.paper[1].eprint }}.
+            {% else %}
+                {{ include.paper[1].volume }}:{{ include.paper[1].pages }}.
+            {% endif %}
+        </li>

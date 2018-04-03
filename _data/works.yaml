@@ -1,0 +1,473 @@
+entries:
+    doi:10.1111/2041-210x.12915:
+        type: article
+        title: 'AutoMorph: Accelerating Morphometrics with Automated 2D and 3D Image
+            Processing and Shape Extraction'
+        journal: Methods in Ecology and Evolution
+        volume: '9'
+        number: '3'
+        year: '2017'
+        pages: 605-612
+        doi: 10.1111/2041-210X.12915
+        url: https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.12915
+        eprint: https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/2041-210X.12915
+        author:
+        -   first: Allison
+            middle: Y.
+            last: Hsiang
+        -   first: Kaylea
+            last: Nelson
+        -   first: Leanne
+            middle: E.
+            last: Elder
+        -   first: Elizabeth
+            middle: C.
+            last: Sibert
+        -   first: Sara
+            middle: S.
+            last: Kahanamoku
+        -   first: Janet
+            middle: E.
+            last: Burke
+        -   first: Abigail
+            last: Kelly
+        -   first: Yusu
+            last: Liu
+        -   first: Pincelli
+            middle: M.
+            last: Hull
+        -   first: Robert
+            last: Freckleton
+    2016mnras.457.4063s:
+        type: article
+        title: nIFTy Galaxy Cluster Simulations - I. Dark Matter and Non-radiative
+            Models
+        journal: Monthly Notices of the Royal Astronomical Society
+        archiveprefix: arXiv
+        eprint: '1503.06065'
+        keywords: 'methods: numerical, galaxies: haloes, cosmology: theory, dark matter'
+        year: '2016'
+        month: April
+        volume: '457'
+        pages: 4063-4080
+        doi: 10.1093/mnras/stw250
+        adsurl: http://adsabs.harvard.edu/abs/2016MNRAS.457.4063S
+        author:
+        -   first: Federico
+            last: Sembolini
+        -   first: Gustavo
+            last: Yepes
+        -   first: Frazer
+            middle: R.
+            last: Pearce
+        -   first: Alexander
+            last: Knebe
+        -   first: Scott
+            middle: T.
+            last: Kay
+        -   first: Chris
+            last: Power
+        -   first: Weiguang
+            last: Cui
+        -   first: Alexander
+            middle: M.
+            last: Beck
+        -   first: Stefano
+            last: Borgani
+        -   first: Claudio
+            last: Dalla Vecchia
+        -   first: Romeel
+            last: Dave
+        -   first: Pascal
+            middle: Jahan
+            last: Elahi
+        -   first: Sean
+            last: February
+        -   first: Shuiyao
+            last: Huang
+        -   first: Alex
+            last: Hobbs
+        -   first: Neal
+            last: Katz
+        -   first: Erwin
+            last: Lau
+        -   first: Ian
+            middle: G.
+            last: McCarthy
+        -   first: Giuseppe
+            last: Murante
+        -   first: Daisuke
+            last: Nagai
+        -   first: Kaylea
+            last: Nelson
+        -   first: Richard
+            middle: D. A.
+            last: Newton
+        -   first: Valentin
+            last: Perret
+        -   first: Ewald
+            last: Puchwein
+        -   first: Justin
+            middle: I.
+            last: Read
+        -   first: Alexandro
+            last: Saro
+        -   first: Joop
+            last: Schaye
+        -   first: Romain
+            last: Teyssier
+        -   first: Robert
+            middle: J.
+            last: Thacker
+    2015apj...808..176a:
+        type: article
+        title: Non-equilibrium Electrons in the Outskirts of Galaxy Clusters
+        journal: The Astrophysical Journal
+        archiveprefix: arXiv
+        eprint: '1410.8142'
+        keywords: 'cosmology: theory, galaxies: clusters: general, galaxies: clusters:
+            intracluster medium, methods: numerical, X-rays: galaxies: clusters'
+        year: '2015'
+        month: August
+        volume: '808'
+        eid: '176'
+        pages: 176-183
+        doi: 10.1088/0004-637X/808/2/176
+        adsurl: http://adsabs.harvard.edu/abs/2015ApJ...808..176A
+        author:
+        -   first: Camille
+            last: Avestruz
+        -   first: Daisuke
+            last: Nagai
+        -   first: Erwin
+            middle: T.
+            last: Lau
+        -   first: Kaylea
+            last: Nelson
+    2015apj...807...12y:
+        type: article
+        title: The Influence of Mergers on Scatter and Evolution in Sunyaev-Zel'dovich
+            Effect Scaling Relations
+        journal: The Astrophysical Journal
+        archiveprefix: arXiv
+        eprint: '1501.00317'
+        keywords: 'cosmology: theory, galaxies: clusters: general, galaxies: clusters:
+            intracluster medium'
+        year: '2015'
+        month: July
+        volume: '807'
+        eid: '12'
+        pages: 12-20
+        doi: 10.1088/0004-637X/807/1/12
+        adsurl: http://adsabs.harvard.edu/abs/2015ApJ...807...12Y
+        author:
+        -   first: Liang
+            last: Yu
+        -   first: Kaylea
+            last: Nelson
+        -   first: Daisuke
+            last: Nagai
+    2015apj...806...68l:
+        type: article
+        title: Mass Accretion and its Effects on the Self-similarity of Gas Profiles
+            in the Outskirts of Galaxy Clusters
+        journal: The Astrophysical Journal
+        archiveprefix: arXiv
+        eprint: '1411.5361'
+        keywords: 'cosmology: theory, galaxies: clusters: general, galaxies: clusters:
+            intracluster medium, methods: numerical'
+        year: '2015'
+        month: June
+        volume: '806'
+        eid: '68'
+        pages: 68-79
+        doi: 10.1088/0004-637X/806/1/68
+        adsurl: http://adsabs.harvard.edu/abs/2015ApJ...806...68L
+        author:
+        -   first: Erwin
+            middle: T.
+            last: Lau
+        -   first: Daisuke
+            last: Nagai
+        -   first: Camille
+            last: Avestruz
+        -   first: Kaylea
+            last: Nelson
+        -   first: Alexey
+            last: Vikhlinin
+    2015mnras.448.1020s:
+        type: article
+        title: Analytical model for non-thermal pressure in galaxy clusters - II.
+            Comparison with cosmological hydrodynamics simulation
+        journal: Monthly Notices of the Royal Astronomical Society
+        archiveprefix: arXiv
+        eprint: '1408.3832'
+        keywords: 'methods: analytical, methods: numerical, galaxies: clusters: general,
+            galaxies: clusters: intracluster medium, cosmology: observations'
+        year: '2015'
+        month: March
+        volume: '448'
+        pages: 1020-1029
+        doi: 10.1093/mnras/stv036
+        adsurl: http://adsabs.harvard.edu/abs/2015MNRAS.448.1020S
+        author:
+        -   first: Xun
+            last: Shi
+        -   first: Eiichiro
+            last: Komatsu
+        -   first: Kaylea
+            last: Nelson
+        -   first: Daisuke
+            last: Nagai
+    2014apj...792...25n:
+        type: article
+        title: Hydrodynamic Simulation of Non-thermal Pressure Profiles of Galaxy
+            Clusters
+        journal: The Astrophysical Journal
+        archiveprefix: arXiv
+        eprint: '1404.4636'
+        keywords: 'cosmology: theory, galaxies: clusters: general, methods: numerical'
+        year: '2014'
+        month: September
+        volume: '792'
+        eid: '25'
+        pages: 25-32
+        doi: 10.1088/0004-637X/792/1/25
+        adsurl: http://adsabs.harvard.edu/abs/2014ApJ...792...25N
+        author:
+        -   first: Kaylea
+            last: Nelson
+        -   first: Erwin
+            middle: T.
+            last: Lau
+        -   first: Daisuke
+            last: Nagai
+    2014apj...791...96r:
+        type: article
+        title: Temperature Structure of the Intracluster Medium from Smoothed-particle
+            Hydrodynamics and Adaptive-mesh Refinement Simulations
+        journal: The Astrophysical Journal
+        archiveprefix: arXiv
+        eprint: '1406.4410'
+        keywords: 'galaxies: clusters: general, galaxies: clusters: intracluster medium,
+            methods: numerical, X-rays: galaxies: clusters'
+        year: '2014'
+        month: August
+        volume: '791'
+        eid: '96'
+        pages: 96-108
+        doi: 10.1088/0004-637X/791/2/96
+        adsurl: http://adsabs.harvard.edu/abs/2014ApJ...791...96R
+        author:
+        -   first: Elena
+            last: Rasia
+        -   first: Erwin
+            middle: T.
+            last: Lau
+        -   first: Stefano
+            last: Borgani
+        -   first: Daisuke
+            last: Nagai
+        -   first: Klaus
+            last: Dolag
+        -   first: Camille
+            last: Avestruz
+        -   first: Gian
+            middle: Luigi
+            last: Granato
+        -   first: Pasquale
+            last: Mazzotta
+        -   first: Giuseppe
+            last: Murante
+        -   first: Kaylea
+            last: Nelson
+        -   first: Cinthia
+            last: Ragone-Figueroa
+    2014apj...782..107n:
+        type: article
+        title: Weighing Galaxy Clusters with Gas. II. On the Origin of Hydrostatic
+            Mass Bias in LCDM Galaxy Clusters
+        journal: The Astrophysical Journal
+        archiveprefix: arXiv
+        eprint: '1308.6589'
+        primaryclass: astro-ph.CO
+        keywords: 'cosmology: theory, galaxies: clusters: general, methods: numerical,
+            X-rays: galaxies: clusters'
+        year: '2014'
+        month: February
+        volume: '782'
+        eid: '107'
+        pages: 107-115
+        doi: 10.1088/0004-637X/782/2/107
+        adsurl: http://adsabs.harvard.edu/abs/2014ApJ...782..107N
+        author:
+        -   first: Kaylea
+            last: Nelson
+        -   first: Erwin
+            middle: T.
+            last: Lau
+        -   first: Daisuke
+            last: Nagai
+        -   first: Douglas
+            middle: H.
+            last: Rudd
+        -   first: Liang
+            last: Yu
+    2014arxiv1404.5306z:
+        type: article
+        title: 'The Relation Between Gas Density and Velocity Power Spectra in Galaxy
+            Clusters: Qualitative Treatment and Cosmological Simulations'
+        journal: ArXiv e-prints
+        archiveprefix: arXiv
+        eprint: '1404.5306'
+        primaryclass: astro-ph.HE
+        year: '2014'
+        month: April
+        adsurl: http://adsabs.harvard.edu/abs/2014arXiv1404.5306Z
+        author:
+        -   first: Irina
+            last: Zhuravleva
+        -   first: Eugene
+            last: Churazov
+        -   first: Alexander
+            middle: A.
+            last: Schekochihin
+        -   first: Erwin
+            middle: T.
+            last: Lau
+        -   first: Daisuke
+            last: Nagai
+        -   first: Massimo
+            last: Gaspari
+        -   first: Steven
+            middle: W.
+            last: Allen
+        -   first: Kaylea
+            last: Nelson
+        -   first: Ian
+            middle: J.
+            last: Parrish
+    2013apj...777..151l:
+        type: article
+        title: Weighing Galaxy Clusters with Gas. I. On the Methods of Computing Hydrostatic
+            Mass Bias
+        journal: The Astrophysical Journal
+        archiveprefix: arXiv
+        eprint: '1306.3993'
+        keywords: 'cosmology: theory, galaxies: clusters: general, methods: numerical,
+            X-rays: galaxies: clusters'
+        year: '2013'
+        month: November
+        volume: '777'
+        eid: '151'
+        pages: 151-156
+        doi: 10.1088/0004-637X/777/2/151
+        adsurl: http://adsabs.harvard.edu/abs/2013ApJ...777..151L
+        author:
+        -   first: Erwin
+            middle: T.
+            last: Lau
+        -   first: Daisuke
+            last: Nagai
+        -   first: Kaylea
+            last: Nelson
+    2013apj...777..137n:
+        type: article
+        title: Predicting Merger-induced Gas Motions in LCDM Galaxy Clusters
+        journal: The Astrophysical Journal
+        archiveprefix: arXiv
+        eprint: '1307.2251'
+        keywords: 'cosmology: theory, galaxies: clusters: general, X-rays: galaxies:
+            clusters'
+        year: '2013'
+        month: November
+        volume: '777'
+        eid: '137'
+        pages: 137-144
+        doi: 10.1088/0004-637X/777/2/137
+        adsurl: http://adsabs.harvard.edu/abs/2013ApJ...777..137N
+        author:
+        -   first: Daisuke
+            last: Nagai
+        -   first: Erwin
+            middle: T.
+            last: Lau
+        -   first: Camille
+            last: Avestruz
+        -   first: Kaylea
+            last: Nelson
+        -   first: Douglas
+            middle: H.
+            last: Rudd
+    2013mnras.430.3054c:
+        type: article
+        title: Sunyaev-Zeldovich Signal Processing and Temperature-Velocity Moment
+            Method for Individual Clusters
+        journal: Monthly Notices of the Royal Astronomical Society
+        archiveprefix: arXiv
+        eprint: '1211.3206'
+        keywords: 'cosmic background radiation, cosmology: observations, cosmology:
+            theory'
+        year: '2013'
+        month: April
+        volume: '430'
+        pages: 3054-3069
+        doi: 10.1093/mnras/stt110
+        adsurl: http://adsabs.harvard.edu/abs/2013MNRAS.430.3054C
+        author:
+        -   first: J.
+            last: Chluba
+        -   first: E.
+            last: Switzer
+        -   first: Kaylea
+            last: Nelson
+        -   first: Daisuke
+            last: Nagai
+    2012mnras.426..510c:
+        type: article
+        title: A Fast and Accurate Method for Computing the Sunyaev-Zel'dovich Signal
+            of Hot Galaxy Clusters
+        journal: Monthly Notices of the Royal Astronomical Society
+        archiveprefix: arXiv
+        eprint: '1205.5778'
+        keywords: 'cosmic background radiation, cosmology: observations, cosmology:
+            theory'
+        year: '2012'
+        month: October
+        volume: '426'
+        pages: 510-530
+        doi: 10.1111/j.1365-2966.2012.21741.x
+        adsurl: http://adsabs.harvard.edu/abs/2012MNRAS.426..510C
+        author:
+        -   first: Jens
+            last: Chluba
+        -   first: Daisuke
+            last: Nagai
+        -   first: Sergey
+            last: Sazonov
+        -   first: Kaylea
+            last: Nelson
+    2012apj...751..121n:
+        type: article
+        title: Evolution of the Merger-induced Hydrostatic Mass Bias in Galaxy Clusters
+        journal: The Astrophysical Journal
+        archiveprefix: arXiv
+        eprint: '1112.3659'
+        keywords: 'cosmology: theory, galaxies: clusters: general'
+        year: '2012'
+        month: June
+        volume: '751'
+        eid: '121'
+        pages: 121-130
+        doi: 10.1088/0004-637X/751/2/121
+        adsurl: http://adsabs.harvard.edu/abs/2012ApJ...751..121N
+        author:
+        -   first: Kaylea
+            last: Nelson
+        -   first: Douglas
+            middle: H.
+            last: Rudd
+        -   first: Laurie
+            last: Shaw
+        -   first: Daisuke
+            last: Nagai
