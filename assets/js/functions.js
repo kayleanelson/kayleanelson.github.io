@@ -4,6 +4,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		var d = document.getElementById("person");
 		d.className += " show";
 	}
+    if(window.location.pathname == '/research') {
+        var d = document.getElementById("astro");
+        d.className += " show";
+    }
 });
 
 function filterNav(evt, section) {
