@@ -6,49 +6,49 @@ $red: #FA2400;
 $gray: #999999;
 
 /* general */
+
 body{
 	font-family: Georgia, serif;
-
 	font-size: 11pt;
 	color: $dkgray;
 }
 
 a{
 	color: $gray;
-	text-decoration:none;
+	text-decoration: none;
 	&:hover{
 		color: $dkgray;
-		text-decoration:none;
+		text-decoration: none;
 	}
 }
 
 h1{
-	font-size:75px;
-	font-weight:normal;
+	font-size: 75px;
+	font-weight: normal;
 	color: $red;
-	margin:0px;
-	text-transform:uppercase;
-	letter-spacing:10px;
+	margin: 0px;
+	text-transform: uppercase;
+	letter-spacing: 10px;
 	span{
-		font-size:72px;
-		display:block;
-		padding-left:5px;
+		font-size: 72px;
+		display: block;
+		padding-left: 5px;
 	}
 }
 
 section, nav{
-	width:800px;
-	margin:0 auto;
+	width: 800px;
+	margin: 0 auto;
 }
 
 /*navigation*/
 
 nav{
 	margin-top: 20px;
-	text-align:center;
+	text-align: center;
 	height: 60px;
 	ul{
-		padding-left:0px;
+		padding-left: 0px;
 		li{
 			display: inline;
 			list-style-type: none;
@@ -80,9 +80,10 @@ nav ul.nav-item.show{
 
 
 /*homepage */
+
 #home, #contact{
-	margin-top:75px;
-	text-align:center;
+	margin-top: 75px;
+	text-align: center;
 }
 
 #home a:hover{
@@ -91,95 +92,82 @@ nav ul.nav-item.show{
 
 
 /*gadgets*/
+
 .gadget{
-	float:right;
-	width:330px;
-	margin-left:10px;
+	float: right;
+	width: 330px;
+	margin-left: 10px;
 	}
 
 .unit{
 	clear:both;
-	padding-top:20px;
+	padding-top: 20px;
 	}
-
-/* bitbucket */
-
-
-/* github */
 
 /*Astro*/
 
 #cv{
-
-
 	h3{
-	color: 	#FA2400;
+		color: 	#FA2400;
+	}
+
+	a, a:link, a:visited{
+		color: $dkgray;
 	}
 
 	div.right{
-	float:right;
-	font-weight:bold;
-	text-align: right;
+		float: right;
+		font-weight: bold;
+		text-align: right;
 	}
 
 	ul{
-		padding-left:15px;
-
-
+		padding-left: 15px;
 		li{
-			list-style:none;
-			margin-bottom:5px;
-			line-height:1.4em;
-			}
+			list-style: none;
+			margin-bottom: 5px;
+			line-height: 1.4em;
+		}
 	}
 
 	ol{
 		padding-left:35px;
-
 		li{
-			margin-bottom:5px;
-			line-height:1.4em;
-
+			margin-bottom: 5px;
+			line-height: 1.4em;
 		}
 	}
 
 	.unbold{
-		font-weight:normal;
+		font-weight: normal;
 	}
 
-
 	ul.position, ul.education{
-	padding-left:0px;
-	list-style:none inside;
+		padding-left: 0px;
+		list-style: none inside;
 		li{
-			margin-bottom:10px;
-			}
+			margin-bottom: 10px;
+		}
 	}
 
 	.address div.right {
-			font-weight:normal;
+		font-weight: normal;
 	}
-
 
 	ul.experience{
-	padding-left:0px;
+		padding-left: 0px;
 		div.year{
-			float:left
+			float: left
 		}
-
 		li{
-			margin-bottom:20px;
+			margin-bottom: 20px;
 		}
-
 		h4, p{
-		margin-left:120px;
-		margin-bottom:0px;
-		margin-top:0px;
+			margin-left: 120px;
+			margin-bottom: 0px;
+			margin-top: 0px;
 		}
-
 	}
-
-
 }
 
 
@@ -190,16 +178,13 @@ nav ul.nav-item.show{
 		color: $red;
 	}
 	div{
-		width:350px;
-		padding-left:20px;
-		float:left;
-
+		width: 350px;
+		padding-left: 20px;
+		float: left;
 		li{
-			list-style:none;
-			line-height:2em;
-			font-size:14px;
+			list-style: none;
+			line-height :2em;
+			font-size: 14px;
 		}
 	}
 }
-
-
