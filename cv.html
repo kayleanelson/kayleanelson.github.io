@@ -9,18 +9,19 @@ layout: default
 
 <h3>Research Interests</h3>
 
-<p>High performance computing, data analysis and interpretation dynamical state of galaxy clusters, large-scale structure, cosmological simulations, hydrodynamic simulations, Sunyaev-Zeldovich Effect, high-energy astrophysics, X-ray observations, galaxy formation and evolution, gravitational lensing</p>
+<p>High performance computing, data analysis and interpretation, dynamical state of galaxy clusters, large-scale structure, cosmological simulations, hydrodynamic simulations, Sunyaev-Zeldovich Effect, high-energy astrophysics, X-ray observations, galaxy formation and evolution, gravitational lensing</p>
 
 <h3>Research Experience</h3>
 
 <ul class="experience">
 <li>
     <div class="year">2009 - 2015</div>
-    <h4>Astrophysics PhD Candidate, <span class="unbold">Yale University, New Haven, Connecticut</span></h4>
+    <h4>Astrophysics Ph.D. Graduate Student, <span class="unbold">Yale University, New Haven, Connecticut</span></h4>
     <p><em>Prof. Daisuke Nagai</em></p>
     <p>Utilizing cosmological, hydrodynamic simulations to study the effects of dynamical state on galaxy cluster properties and our ability to accurately measure them. Research responsibilities include the design, execution and management of large-scale simulations on high performance computers at Yale (>10 million CPU hours, ~petabyte data generated). Development of Python, SQLite and C data analysis pipelines used throughout extended research group. Extensive experience in written and oral communication through research publications, teaching, and conferences. Additional responsibilities include project development/management and mentoring of undergraduate and junior graduate students. </p>
     <p>Developer for and user of astrophysics software <a href="https://bitbucket.org/cartamr/cart">CART</a> and <a href="http://yt-project.org/">yt</a>.</p>
 </li>
+<div style="display:none;">
 <li>
     <div class="year">2008 - 2009</div>
     <h4>Senior Scholars Program, <span class="unbold">Colby College, Waterville, Maine</span></h4>
@@ -39,6 +40,7 @@ layout: default
     <p><em>Prof. Murray Campbell</em></p>
     <p>Studied mid-infrared photometry and built models using IDL to describe the gas and dust surrounding high mass protostellar candidates using the Whitney Monte Carlo radiative transfer modeling code.</p>
 </li>
+</div>
 </ul>
 
 <h3>Publications</h3>
@@ -74,9 +76,11 @@ layout: default
 
 <h3>Professional Activities</h3>
 <ul>
-    <li>Referee for <em>The Astrophysical Journal</em> and <em>Astronomy &amp; Astrophysics</em></li>
-    <li>Junior Member of American Astronomical Society</li>
+    {% for activity in site.data.activities %}
+      <li>{{ activity.title }}, {{ activity.date }}</li>
+    {% endfor %}
 </ul>
+
 
 
 <h3>Conferences and Talks</h3>

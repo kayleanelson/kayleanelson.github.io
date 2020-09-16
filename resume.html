@@ -17,6 +17,12 @@ layout: default
     <p>Serve as a Research Computing Facilitator to help make use of local, regional, and national high performance computing resources when computing needs exceed the capacity of the researcher's desktop or laptop.</p>
 </li>
 
+<li>
+    <div class="year">2020 - present</div>
+    <h4>Program Manager <span class="unbold">NSF CAREERS Cyberteam, Yale University</span></h4>
+    <p>Serve as a co-Program Manager for the CAREERS Cyberteam Program. The CAREERS Cyberteam Program is a 3-year initiative funded by the National Science Foundation to build a regional pool of Research Computing Facilitators to support researchers at small and mid-sized institutions in Connecticut, Rhode Island, Pennsylvania, Delaware, New York and New Jersey.  Over three years, the program supports 42 compute-intensive projects with RCFs-in-training ("students"), each paired with a mentor, to facilitate research computing needs for a 3 month period.</p>
+</li>
+
 
 <li>
     <div class="year">2009 - 2015</div>
@@ -44,8 +50,7 @@ layout: default
     <li>Expert in Python (including pandas, numpy and scipy packages)<li>
     <li>Expert in C</li>
     <li>Experienced in SQL/SQLite</li>
-    <li>Familiar with Perl, IDL, R<li>
-    <li>Familiar with Java, Objective-C</li>
+    <li>Familiar with Perl, IDL, R, Java, Objective-C</li>
     <li><strong>Skills</strong></li>
     <li>Expert in high performance computing</li>
     <li>Expert in Linux command line, bash scripting</li>
@@ -58,7 +63,16 @@ layout: default
     <li>Familiar with AngularJS and node.js</li>
 </ul>
 
+<h3>Professional Activities</h3>
 
+<ul>
+    {% for activity in site.data.activities %}
+      <li>{{ activity.title }}, {{ activity.date }}</li>
+    {% endfor %}
+</ul>
+
+
+<div style="display: none">
 <h3>Conferences and Talks</h3>
 
 <ul>
@@ -76,5 +90,5 @@ layout: default
       <li> {{ workshop.title }}, {{ workshop.location }}, {{ workshop.date }}</li>
     {% endfor %}
 </ul>
-
+</div>
 </section>
