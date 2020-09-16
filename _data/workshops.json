@@ -10,23 +10,6 @@
     "topic": "astro",
     "location": "Cambridge, MA",
     "date": "Sep 2013"
-  },
-  {
-    "title": "KICP Summer School: Computational Cosmology",
-    "topic": "astro",
-    "location": "Chicago, IL",
-    "date": "Aug 2013"
-  },
-  {
-    "title": "Winter School in Theoretical Physics: Early Galaxy Formation in LCDM Cosmology",
-    "topic": "astro",
-    "location": "Jerusalem, Israel",
-    "date": "Jan 2013"
-  },
-  {
-    "title": "Santa Fe Cosmology Workshop",
-    "topic": "astro",
-    "location": "Santa Fe, NM",
-    "date": "Jul 2011 & Jul 2010"
+  }
   }
 ]

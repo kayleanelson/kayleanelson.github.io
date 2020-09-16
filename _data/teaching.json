@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Git for Version Control",
+    "topic": "hpc",
+    "location": "Yale University",
+    "date": "2017-2020",
+    "role": "Workshop Instructor"
+  },
+   {
+    "title": "Introduction to HPC",
+    "topic": "hpc",
+    "location": "Yale University",
+    "date": "2015-2020",
+    "role": "Workshop Instructor"
+  },
+    {
+    "title": "Data Analysis Tools for Python",
+    "topic": "hpc",
+    "location": "Yale University",
+    "date": "2018-2020",
+    "role": "Workshop Instructor"
+  }
+ ]

@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Planets and Stars",
+    "topic": "astro",
+    "location": "Yale University",
+    "date": "Fall 2012",
+    "role": "Teaching Assistant"
+  },
+  {
+    "title": "Galaxies and Cosmology",
+    "topic": "astro",
+    "location": "Yale University",
+    "date": "Fall 2011",
+    "role": "Teaching Assistant"
+  },
+  {
+    "title": "Frontiers of Astrophysics",
+    "topic": "astro",
+    "location": "Yale University",
+    "date": "Fall 2010",
+    "role": "Teaching Assistant"
+  },
+  {
+    "title": "Planets and Stars",
+    "topic": "astro",
+    "location": "Yale University",
+    "date": "Spring 2010",
+    "role": "Teaching Assistant"
+  },
+  {
+    "title": "Galaxies and the Universe",
+    "topic": "astro",
+    "location": "Yale University",
+    "date": "Fall 2009",
+    "role": "Teaching Assistant"
+  }
+ ]

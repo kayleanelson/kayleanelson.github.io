@@ -84,7 +84,6 @@ layout: default
 </ul>
 
 
-
 <h3>Conferences and Talks</h3>
 
 <ul>
@@ -104,6 +103,7 @@ layout: default
 </ul>
 
 
+<div style="display:none">
 <h3>Mentoring</h3>
 <ul>
     <li>Sarah Benjamin, PhD Student, Yale, 2014-2015<br />
@@ -119,15 +119,13 @@ layout: default
         Senior Thesis: <cite>Evolution of Hydrostatic Mass Bias in Galaxy Groups</cite>
     </li>
 </ul>
+</div>
 
 <h3>Teaching</h3>
 <ul class="teaching">
-    <li><cite>Planets and Stars</cite> at Yale University, Fall 2012 (Teaching Assistant)</li>
-    <li><cite>Galaxies and Cosmology</cite> at Yale University, Fall 2011 (Teaching Assistant)</li>
-    <li><cite>Frontiers of Astrophysics</cite> at Yale University, Fall 2010 (Teaching Assistant)</li>
-    <li><cite>Planets and Stars</cite> at Yale University, Spring 2010 (Teaching Assistant)</li>
-    <li><cite>Galaxies and the Universe</cite> at Yale University, Fall 2009 (Teaching Assistant)</li>
-
+    {% for class in site.data.teaching %}
+      <li> {{ class.title }}, {{ class.location }}, {{ class.date }} ({{ class.role }})</li>
+    {% endfor %}
 </ul>
 
 </section>
