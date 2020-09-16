@@ -84,6 +84,7 @@ layout: default
 </ul>
 
 
+<div style="display:none">
 <h3>Conferences and Talks</h3>
 
 <ul>
@@ -92,9 +93,10 @@ layout: default
           {{ presentation.location }}, {{ presentation.date }}</li>
     {% endfor %}
 </ul>
+</div>
 
 
-<h3>Workshops & Schools</h3>
+<h3>Workshops</h3>
 
 <ul>
     {% for workshop in site.data.workshops %}
