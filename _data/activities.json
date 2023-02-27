@@ -1,22 +1,32 @@
 [
   {
     "title": "Program Manager of NSF CAREERS Cyberteam Program",
-    "topic": "hpc",
+    "topic": "workforce",
     "date": "2020-present"
   },
   {
-    "title": "Member of the Technical Program Committee for SC20 Conference",
+    "title": "Co-Chair of Women in HPC: North East Chapter",
+    "topic": "workforce",
+    "date": "2022-present"
+  },
+   {
+    "title": "CCaRC Decadal Survey Interest Group",
     "topic": "hpc",
-    "date": "2019-2020"
+    "date": "2021-present"
   },
   {
-    "title": "Member of the Technical Program Committee for PEARC20 Conference",
+    "title": "Member of the Technical Program Committee for PEARC Conference",
     "topic": "hpc",
-    "date": "2019-2020"
+    "dates": "PEARC22, PEARC21, PEARC20"
+  },
+  {
+    "title": "Member of the Technical Program Committee for SuperComputing Conference",
+    "topic": "hpc",
+    "date": "SC20"
   },
   {
     "title": "Mentor to YCRC Summer Interns",
-    "topic": "hpc",
+    "topic": "workforce",
     "date": "Summer 2018, Summer 2019"
   },
   {
@@ -35,7 +45,7 @@
     "date": "2017-2019"
   },
   {
-    "title": "XSEDE Campus Champion",
+    "title": "Campus Champion",
     "topic": "hpc",
     "date": "2015-present"
   }

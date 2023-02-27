@@ -11,16 +11,23 @@ layout: default
 
 <ul class="experience">
 
+
 <li>
-    <div class="year">2015 - present</div>
-    <h4>Senior Computational Research Support Analyst, <span class="unbold">Yale Center for Research Computing, Yale University</span></h4>
-    <p>Serve as a Research Computing Facilitator to help make use of local, regional, and national high performance computing resources when computing needs exceed the capacity of the researcher's desktop or laptop.</p>
+    <div class="year">2022 - present</div>
+    <h4>Team Lead of Computational Research Support, <span class="unbold">Yale Center for Research Computing, Yale University</span></h4>
+    <p>Lead a team of Research Computing Facilitators (Computation Research Support Analysts). Leads large projects to refresh and expand the high performance computing and storage resources of the YCRC.</p>
 </li>
 
 <li>
     <div class="year">2020 - present</div>
     <h4>Program Manager, <span class="unbold">NSF CAREERS Cyberteam, Yale University</span></h4>
     <p>Serve as a co-Program Manager for the CAREERS Cyberteam Program. The CAREERS Cyberteam Program is a 3-year initiative funded by the National Science Foundation to build a regional pool of Research Computing Facilitators to support researchers at small and mid-sized institutions in Connecticut, Rhode Island, Pennsylvania, Delaware, New York and New Jersey.  Over three years, the program supports 42 compute-intensive projects with RCFs-in-training ("students"), each paired with a mentor, to facilitate research computing needs for a 3 month period.</p>
+</li>
+
+<li>
+    <div class="year">2015 - 2022</div>
+    <h4>Senior Computational Research Support Analyst, <span class="unbold">Yale Center for Research Computing, Yale University</span></h4>
+    <p>Serve as a Research Computing Facilitator to help Yale researchers make use of local, regional, and national high performance computing resources when computing needs exceed the capacity of the researcher's desktop or laptop.</p>
 </li>
 
 
@@ -60,7 +67,6 @@ layout: default
     <li>Familiar with MacOS development</li>
     <li><strong>Web Development</strong></li>
     <li>Experienced in HTML, CSS (+preprocessors), JavaScript, PHP</li>
-    <li>Familiar with AngularJS and node.js</li>
 </ul>
 
 <h3>Professional Activities</h3>
@@ -71,12 +77,12 @@ layout: default
     {% endfor %}
 </ul>
 
-
 <div style="display: none">
-<h3>Conferences and Talks</h3>
+
+<h3>Presentations and Talks</h3>
 
 <ul>
-    {% for presentation in site.data.presentations %}
+    {% for presentation in site.data.presentations_phd %}
       <li>{{ presentation.type }}, <cite>{{ presentation.title }}</cite>, {{ presentation.venue }},
           {{ presentation.location }}, {{ presentation.date }}</li>
     {% endfor %}
